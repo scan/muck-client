@@ -1,0 +1,41 @@
+{
+  "name": "muck-client",
+  "version": "0.0.1",
+  "description": "An online MUCK client",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/.bin/gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Streller <tom.streller@functional-games.de>",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "~1.6.2",
+    "errorhandler": "~1.4.3",
+    "express": "~4.14.0",
+    "moment": "~2.14.1",
+    "morgan": "~1.7.0",
+    "redis": "~2.6.2",
+    "serve-static": "~1.11.1",
+    "socket.io": "~1.4.8"
+  },
+  "optionalDependencies": {
+    "hiredis": "~0.5.0"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "del": "~2.2.2",
+    "gulp": "~3.9.1",
+    "gulp-csso": "~2.0.0",
+    "gulp-htmlmin": "~2.0.0",
+    "gulp-jade": "~1.1.0",
+    "gulp-nodemon": "~2.1.0",
+    "gulp-rev": "~7.1.2",
+    "gulp-uglify": "~2.0.0",
+    "gulp-usemin": "~0.3.24",
+    "mocha": "~3.0.2",
+    "nodemon": "~1.10.2",
+    "wiredep": "~4.0.0"
+  }
+}

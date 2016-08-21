@@ -1,0 +1,23 @@
+{
+  "name": "muck-client",
+  "description": "An online MUCK client",
+  "main": "index.js",
+  "authors": [
+    "Tom Streller <tom.streller@functional-games.de>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-material": "^1.1.0",
+    "angular-resource": "^1.5.8"
+  }
+}
