@@ -2,3 +2,8 @@
 *.log
 /node_modules
 /bower_components
+
+/public/scripts
+/public/styles
+/public/images
+/public/index.html
